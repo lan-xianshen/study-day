@@ -1,5 +1,7 @@
 package com.lan.future;
 
+import java.util.HashMap;
+import java.util.Hashtable;
 import java.util.concurrent.*;
 
 /**
@@ -16,6 +18,7 @@ public class ThreadTest {
             30, 3L, TimeUnit.SECONDS,
             new ArrayBlockingQueue<Runnable> (100), Executors.defaultThreadFactory (),
             new ThreadPoolExecutor.AbortPolicy ());
+
 
     public static void main (String[] args) throws ExecutionException, InterruptedException {
         //当前系统中池只有一两个，每个异步任务，提交给线程池让其自己去执行
