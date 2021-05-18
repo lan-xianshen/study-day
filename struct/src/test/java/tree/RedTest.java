@@ -14,6 +14,5 @@ public class RedTest {
         //RedBlackTree<String, Active> red = new RedBlackTree<String, Active> ();
         RedBlackTree<String, String> red = new RedBlackTree<String, String> ();
 
-
     }
 }
