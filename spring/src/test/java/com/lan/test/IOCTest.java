@@ -11,7 +11,7 @@ import java.util.Map;
 /**
  * @author jianglin.lan
  * @title: IOCTest
- * @projectName study-day-by-day
+ * @projectName study-day
  * @description: TODO
  * @date 2021/5/1813:53
  */

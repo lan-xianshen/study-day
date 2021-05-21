@@ -10,7 +10,7 @@ import org.springframework.core.type.AnnotatedTypeMetadata;
 /**
  * @author jianglin.lan
  * @title: LinuxCondition
- * @projectName study-day-by-day
+ * @projectName study-day
  * @description: TODO
  * @date 2021/5/1815:45
  */

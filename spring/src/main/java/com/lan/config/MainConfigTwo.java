@@ -11,7 +11,7 @@ import org.springframework.context.annotation.*;
 /**
  * @author jianglin.lan
  * @title: MainConfigTwo
- * @projectName study-day-by-day
+ * @projectName study-day
  * @description: TODO
  * @date 2021/5/18 14:29
  */
@@ -46,14 +46,14 @@ public class MainConfigTwo {
 
     @Bean("bill")
     public Person person01(){
-        return  new Person ("bill",55,1);
+        return  new Person ("bill",55,"1",1);
     }
 
 
     @Bean("linus")
     @Conditional (value = {LinuxCondition.class})
     public Person person02(){
-        return  new Person ("linus",66,1);
+        return  new Person ("linus",66,"1",1);
     }
 
     /**

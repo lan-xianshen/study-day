@@ -12,7 +12,7 @@ import java.io.IOException;
 /**
  * @author jianglin.lan
  * @title: MyTypeFilter
- * @projectName study-day-by-day
+ * @projectName study-day
  * @description: TODO 自定义过滤规则
  * @date 2021/5/18 14:15
  */

@@ -9,7 +9,7 @@ import org.springframework.stereotype.Service;
 /**
  * @author jianglin.lan
  * @title: BeanConfig
- * @projectName study-day-by-day
+ * @projectName study-day
  * @description: TODO
  * @date 2021/5/17 17:31
  */
@@ -42,6 +42,6 @@ public class MainConfig {
 
     @Bean("person")
     public Person getPerson () {
-        return new Person ("zhangsan", 22, 1);
+        return new Person ("zhangsan", 22, "1",1);
     }
 }

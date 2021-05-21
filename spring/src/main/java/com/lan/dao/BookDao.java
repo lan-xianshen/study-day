@@ -5,7 +5,7 @@ import org.springframework.stereotype.Repository;
 /**
  * @author jianglin.lan
  * @title: BookDao
- * @projectName study-day-by-day
+ * @projectName study-day
  * @description: TODO
  * @date 2021/5/18 13:51
  */
