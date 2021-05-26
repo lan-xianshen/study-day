@@ -13,6 +13,8 @@ import org.springframework.core.type.AnnotatedTypeMetadata;
  * @projectName study-day
  * @description: TODO
  * @date 2021/5/1815:45
+ *
+ * -Dos.name=linux
  */
 public class LinuxCondition implements Condition {
     /**
