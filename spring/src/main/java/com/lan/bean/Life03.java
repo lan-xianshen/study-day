@@ -1,6 +1,8 @@
 package com.lan.bean;
 
 import org.springframework.beans.BeansException;
+import org.springframework.beans.factory.Aware;
+import org.springframework.beans.factory.BeanNameAware;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.ApplicationContextAware;
 import org.springframework.stereotype.Component;
@@ -13,7 +15,7 @@ import org.springframework.stereotype.Component;
  * @date 2021/5/1914:28
  */
 @Component
-public class Life03 implements ApplicationContextAware {
+public class Life03 implements ApplicationContextAware, BeanNameAware {
     ApplicationContext applicationContext = null;
 
     public Life03 () {
@@ -22,6 +24,12 @@ public class Life03 implements ApplicationContextAware {
 
     @Override
     public void setApplicationContext (ApplicationContext applicationContext) throws BeansException {
+        System.out.println ("传入的IOC===" + applicationContext);
         this.applicationContext = applicationContext;
+    }
+
+    @Override
+    public void setBeanName (String name) {
+        System.out.println (name);
     }
 }

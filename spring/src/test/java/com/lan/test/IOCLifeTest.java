@@ -23,11 +23,11 @@ public class IOCLifeTest {
     @Test
     public void test01 () {
         System.out.println ("容器创建完成");
-      /*  String[] names = context.getBeanDefinitionNames ();
+        String[] names = context.getBeanDefinitionNames ();
         for (String name : names
         ) {
             System.out.println (name);
-        }*/
+        }
       context.close ();
 
     }

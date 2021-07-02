@@ -20,21 +20,21 @@ public class LogAspects {
 
     @Before("pointCut()")
     public void logStart () {
-        System.out.println ("除法运行====参数列表：{}");
+        System.out.println ("闄ゆ硶杩愯====鍙傛暟鍒楄〃锛歿}");
     }
 
     @After("pointCut()")
     public void logEnd () {
-        System.out.println ("除法结束");
+        System.out.println ("闄ゆ硶缁撴潫");
     }
 
     @AfterReturning("pointCut()")
     public void logReturn () {
-        System.out.println ("除法正常返回===结果是：{}");
+        System.out.println ("闄ゆ硶姝ｅ父杩斿洖===缁撴灉鏄細{}");
     }
 
     @AfterThrowing("pointCut()")
     public void logException () {
-        System.out.println ("除法异常===异常信息是：{}");
+        System.out.println ("闄ゆ硶寮傚父===寮傚父淇℃伅鏄細{}");
     }
 }

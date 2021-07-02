@@ -1,6 +1,7 @@
 package com.lan.config;
 
 import com.lan.bean.Person;
+import com.lan.bean.SchoolFactoryBean;
 import com.lan.bean.Student;
 import com.lan.condition.LinuxCondition;
 import com.lan.condition.MyImportBeanDefineRegister;
@@ -66,4 +67,9 @@ public class MainConfigTwo {
      *     3）、ImportBeanDefinitionRegistrar：手动注册到容器中
      *
      */
+
+    @Bean
+    public SchoolFactoryBean getSchoolFactoryBean(){
+        return new SchoolFactoryBean ();
+    }
 }

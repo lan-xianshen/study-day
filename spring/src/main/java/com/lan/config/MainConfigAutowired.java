@@ -26,7 +26,13 @@ import org.springframework.context.annotation.Configuration;
  *          @Resource：默认按照名称装配的，不支持@Primary 和@Autowired(required=false)
  *          @Inject 需要导入javax。inject的包，和Autowired功能一样 不支持@Autowired(required=false)
  *
- * 3）、@Autowired :适用于 构造器、参数、方法、属性
+ * 3）、@Autowired :适用于 构造器、参数、方法、属性:都是从容器中获取参数组件的值
+ *          1）、[标注在方法位置]：@Bean+方法参数：参数从容器中获取；默认不写@Autowired效果是一样的；都能自动
+ *          2)、[标注在构造器上]：如果组件只有一个构造器，这个构造器的@Autowired可以省略
+ *
+ *  4)、自定义组件想要使用Spring容器底层的一些组件（ApplicationContext,BeanFactory,***）;
+ *          自定义组件实现xxxAware:在创建对象的时候，会调用接口规定的方法注入相关组件：参照Aware
+ *          xxxAware:功能是使用xxxProcessor
  */
 @Configuration
 public class MainConfigAutowired {
