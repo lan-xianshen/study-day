@@ -20,6 +20,7 @@ public class UserDao {
     public void insert () {
         String sql = "INSERT INTO user( name, age) VALUES (?, ?)";
         jdbcTemplate.update (sql, "zhangsi", 12);
+        int i = 10/0;
         System.out.println ("插入完成");
     }
 }

@@ -20,7 +20,9 @@ public class IOCTestTX {
         AnnotationConfigApplicationContext context =
                 new AnnotationConfigApplicationContext (MainConfigTX.class);
         UserService bean = context.getBean (UserService.class);
+        System.out.println ("insert...before");
         bean.insert ();
+        System.out.println ("insert...after");
         context.close ();
 
     }
