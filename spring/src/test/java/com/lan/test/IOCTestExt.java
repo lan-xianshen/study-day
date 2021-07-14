@@ -2,6 +2,7 @@ package com.lan.test;
 
 import com.lan.config.ExtConfig;
 import org.junit.Test;
+import org.springframework.beans.factory.support.DefaultSingletonBeanRegistry;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
 /**
@@ -16,6 +17,7 @@ public class IOCTestExt {
     public void test02 () {
         AnnotationConfigApplicationContext context =
                 new AnnotationConfigApplicationContext (ExtConfig.class);
+
         context.close ();
     }
 }
