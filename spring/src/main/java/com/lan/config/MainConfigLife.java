@@ -34,7 +34,7 @@ import org.springframework.context.annotation.Configuration;
  * 遍历得到容器中所有的BeanPostProcessor，挨个执行beforeInitialization,一旦返回null
  * ,跳出循环，不会执行后面的BeanPostProcessor.postProcessorsBeforeInitialization
  *
- *	populateBean(beanName, mbd, instanceWrapper);给bean进行属性赋值
+ *	populateBean(beanName, mbd, instanceWrapper);给bean进行属性赋值(getter,setter 方法)
  *{
  *    applyBeanPostProcessorsBeforeInitialization(wrappedBean, beanName);
  *   invokeInitMethods(beanName, wrappedBean, mbd);执行初始化方法
@@ -52,7 +52,7 @@ import org.springframework.context.annotation.Configuration;
  *        postProcessBeforeInitialization：在初始化之前
  *        postProcessAfterInitialization：在销毁之后
  *
- *  Spring底层对BeanPostProcessor 的使用
+ *  Spring底层对 BeanPostProcessor 的使用
  *          bean赋值,注入其它组件，@Autowired,生命周期注解功能,@Async,xxx BeanPostProcessor
  */
 @Configuration
