@@ -11,7 +11,7 @@ import org.springframework.stereotype.Component;
  * @description: TODO 后置处理器
  * @date 2021/5/1913:09
  */
-@Component
+//@Component
 public class MyBeanPostProcessor implements BeanPostProcessor {
     /**
      * bean 初始化之前调用

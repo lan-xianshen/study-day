@@ -14,7 +14,7 @@ import org.springframework.stereotype.Component;
  * @description: TODO
  * @date 2021/5/1914:28
  */
-@Component
+//@Component
 public class Life03 implements ApplicationContextAware, BeanNameAware {
     ApplicationContext applicationContext = null;
 
