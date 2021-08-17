@@ -16,6 +16,7 @@
         <module>util</module>
         <module>spring</module>
         <module>springMVC</module>
+        <module>springboot</module>
 
     </modules>
 
