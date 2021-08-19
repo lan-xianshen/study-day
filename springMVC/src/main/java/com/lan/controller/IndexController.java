@@ -1,5 +1,6 @@
 package com.lan.controller;
 
+import org.apache.commons.logging.LogFactory;
 import com.lan.bean.Book;
 import com.sun.xml.internal.bind.v2.runtime.unmarshaller.Intercepter;
 import org.springframework.stereotype.Controller;
@@ -7,12 +8,16 @@ import org.springframework.web.WebApplicationInitializer;
 import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.bind.annotation.ResponseBody;
+import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.servlet.DispatcherServlet;
 import org.springframework.web.servlet.mvc.annotation.AnnotationMethodHandlerAdapter;
 
 import javax.servlet.http.HttpServletRequest;
 import java.lang.reflect.Proxy;
 import java.math.BigDecimal;
+import java.util.Map;
+
 import java.util.Map;
 
 /**
@@ -35,11 +40,11 @@ import java.util.Map;
 @Controller
 public class IndexController {
 
+
     @RequestMapping("/hello")
-    public String hello () {
+    public String hello(@RequestParam("demo") String demo, Map<String, String> map) {
 
-
-        System.out.println ("success...");
+        System.out.println("success...sssssssss");
         return "success";
     }
 

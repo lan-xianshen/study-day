@@ -17,8 +17,20 @@
         <module>spring</module>
         <module>springMVC</module>
         <module>springboot</module>
+        <module>mybatis</module>
 
     </modules>
+
+    <properties>
+        <project.build.sourceEncoding>
+            UTF-8
+        </project.build.sourceEncoding>
+    </properties>
+
+
+
+
+
 
 
 </project>
