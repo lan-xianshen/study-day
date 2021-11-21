@@ -7,5 +7,8 @@ package com.lan.future;
 public class TestGitBranch {
     public static void main(String[] args) {
         System.out.println("这是git 的第二个分支 hotfix");
+        System.out.println("这是git 的第二个分支 hotfix");
+        System.out.println("这是git 的第二个分支 hotfix");
+        System.out.println("这是git 的第二个分支 hotfix");
     }
 }
