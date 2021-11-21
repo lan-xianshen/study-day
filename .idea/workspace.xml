@@ -6,10 +6,7 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c576304d-0d23-4587-93cc-1bf393b536fd" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/juc/src/main/java/com/lan/future/threadCir/DeadThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/juc/src/main/java/com/lan/future/threadCir/DeadThread.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring/pom.xml" afterDir="false" />
-    </list>
+    <list default="true" id="c576304d-0d23-4587-93cc-1bf393b536fd" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -295,6 +292,7 @@
       <workItem from="1631616508301" duration="697000" />
       <workItem from="1636157429169" duration="1657000" />
       <workItem from="1637481578951" duration="195000" />
+      <workItem from="1637481799149" duration="1129000" />
     </task>
     <task id="LOCAL-00001" summary="目录修改">
       <created>1619601963489</created>
@@ -334,10 +332,10 @@
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state x="1175" y="252" key="#Project_Structure/0.0.2048.1112@0.0.2048.1112" timestamp="1629261080587" />
-    <state x="479" y="211" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1629040380491">
+    <state x="479" y="211" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1637482817293">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state x="479" y="211" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.2048.1112@0.0.2048.1112" timestamp="1629040380491" />
+    <state x="479" y="211" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.2048.1112@0.0.2048.1112" timestamp="1637482817293" />
     <state x="830" y="260" key="#com.intellij.ide.util.MemberChooser" timestamp="1629259422898">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
@@ -402,10 +400,14 @@
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state x="617" y="289" key="Vcs.Push.Dialog.v2/0.0.2048.1112@0.0.2048.1112" timestamp="1629993330814" />
-    <state x="705" y="380" key="com.intellij.ide.util.TipDialog" timestamp="1636157429182">
+    <state x="681" y="290" key="VcsDiffUtil.ChangesDialog" timestamp="1637482833623">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state x="705" y="380" key="com.intellij.ide.util.TipDialog/0.0.2048.1112@0.0.2048.1112" timestamp="1636157429182" />
+    <state x="681" y="290" key="VcsDiffUtil.ChangesDialog/0.0.2048.1112@0.0.2048.1112" timestamp="1637482833623" />
+    <state x="705" y="380" key="com.intellij.ide.util.TipDialog" timestamp="1637482024304">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state x="705" y="380" key="com.intellij.ide.util.TipDialog/0.0.2048.1112@0.0.2048.1112" timestamp="1637482024304" />
     <state x="863" y="470" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1629254025820">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
