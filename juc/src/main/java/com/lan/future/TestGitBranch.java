@@ -14,5 +14,8 @@ public class TestGitBranch {
         System.out.println("这是git 的第二个分支 hotfix01");
         System.out.println("这是git 的第二个分支 hotfix01");
         System.out.println("这是git 的第二个分支 hotfix01");
+        System.out.println("这是git 的第二个分支 hotfix");
+        System.out.println("这是git 的第二个分支 hotfix");
+        System.out.println("这是git 的第二个分支 hotfix");
     }
 }
