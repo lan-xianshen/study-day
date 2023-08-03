@@ -12,7 +12,8 @@ Spring的核心思想就是容器，当容器refresh的时候，外部看上去�
 
 <br/>
 
-<img src="attachment:eb2d1f97e32959e6cefb3dfa68bd9046" alt="screen-capture" style="zoom:110%;" />
+![eb2d1f97e32959e6cefb3dfa68bd9046](https://github.com/lan-xianshen/study-day/assets/63331213/1ef0f8d4-5c3b-45d8-9b58-6f2e0d947f51)
+
 # 3、ApplicationContextInitializer
 
 > org.springframework.context.ApplicationContextInitializer  
